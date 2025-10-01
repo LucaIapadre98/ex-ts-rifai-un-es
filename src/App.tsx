@@ -48,7 +48,7 @@ function App() {
       console.error('Errore durante il recupero della data di nascita:', error);
       throw error; 
     }    
-  }
+  };
 
   const handleGetChefBirthday = async () => {                                             // Funzione per gestire il click del bottone
     try {
